@@ -4,9 +4,9 @@ String textFromSerial= "";
 void setup() {
  lcd.begin(16,2);
  lcd.clear();
- lcd.setCursor(0,3);
+ lcd.setCursor(0,0);
  lcd.print("Data From Serial");
- Serial.begin(960);
+ Serial.begin(9600);
 }
 
 void loop() {
